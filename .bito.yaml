@@ -1,0 +1,18 @@
+# ============================= IMPORTANT =============================
+# Rename this file to ".bito.yaml" and place it in the root of your repository's source branch.
+# This will override your review settings for this particular repository.
+# For more information, please visit: https://docs.bito.ai/ai-code-reviews-in-git/agent-settings/repo-level-settings
+# =====================================================================
+
+
+# Name and path to review guidelines that you want bito to follow. 
+# These files must exist in your source branch at review time.
+# We accept upto 3 general guidelines and 1 language specific guideline per language.
+custom_guidelines:
+  general:
+    - name: "Bito Coding Standards"
+      path: "./bito_coding_standards.md"
+  per_language:
+    csharp:
+      name: ""
+      path: ""

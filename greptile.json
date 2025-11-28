@@ -1,0 +1,62 @@
+{
+  "labels": [],
+  "comment": "",
+  "fixWithAI": false,
+  "strictness": 2,
+  "commentTypes": [
+    "logic",
+    "syntax",
+    "style"
+  ],
+  "instructions": "",
+  "excludeAuthors": [
+    "dependabot[bot]",
+    "renovate[bot]"
+  ],
+  "ignorePatterns": "greptile.json\n",
+  "summarySection": {
+    "included": true,
+    "collapsible": false,
+    "defaultOpen": false
+  },
+  "triggerOnUpdates": false,
+  "updateSummaryOnly": false,
+  "issuesTableSection": {
+    "included": true,
+    "collapsible": false,
+    "defaultOpen": false
+  },
+  "confidenceScoreSection": {
+    "included": true,
+    "collapsible": false,
+    "defaultOpen": false
+  },
+  "sequenceDiagramSection": {
+    "included": true,
+    "collapsible": false,
+    "defaultOpen": false
+  },
+  "shouldUpdateDescription": false,
+  "updateExistingSummaryComment": false,
+  "customContext": {
+    "other": [
+      {
+        "scope": [],
+        "content": ""
+      }
+    ],
+    "rules": [
+      {
+        "scope": [],
+        "rule": ""
+      }
+    ],
+    "files": [
+      {
+        "scope": [],
+        "path": "greptile_coding_standards.md",
+        "description": "Greptile Coding Standards"
+      }
+    ]
+  }
+}

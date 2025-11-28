@@ -1,0 +1,39 @@
+# pr_compliance_checklist.yaml
+
+pr_compliances:
+
+  - title: "Architecture Consistency"
+    compliance_label: true
+    objective: "Ensure new files follow the existing folder and project structure."
+    success_criteria: "New files are placed in the correct folders (e.g., services in /Services)."
+    failure_criteria: "Commits introduce files that do not fit within the existing architecture."
+
+  - title: "File & Class Name Consistency"
+    compliance_label: true
+    objective: "Ensure file names match the primary class name they contain."
+    success_criteria: "File and class names correspond (e.g., MessagesService.cs → MessagesService)."
+    failure_criteria: "File names and class names do not match."
+
+  - title: "Avoid Negative or Confusing Names"
+    compliance_label: true
+    objective: "Ensure variable names are clear and avoid negative or double-negative forms."
+    success_criteria: "Variables use positive naming (e.g., isDone instead of isNotDone)."
+    failure_criteria: "Variables use negative, double-negative, or confusing names."
+
+  - title: "Consistent Formatting"
+    compliance_label: true
+    objective: "Ensure the project uses a uniform formatting style."
+    success_criteria: "Code uses consistent indentation (tabs/spaces) across all methods and files."
+    failure_criteria: "Formatting is inconsistent or breaks the project convention."
+
+  - title: "Naming Conventions"
+    compliance_label: true
+    objective: "Ensure naming follows standard C# conventions."
+    success_criteria: "Variables use camelCase, and classes, methods, and public members use PascalCase."
+    failure_criteria: "Naming does not follow camelCase or PascalCase conventions."
+
+  - title: "Clean Code Principles"
+    compliance_label: true
+    objective: "Ensure functions are simple and focused on a single responsibility."
+    success_criteria: "Functions remain concise and avoid unnecessary logic, loops, or logging."
+    failure_criteria: "Methods become too long, too complex, or mix multiple responsibilities."
