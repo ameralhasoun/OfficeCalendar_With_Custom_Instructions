@@ -25,3 +25,7 @@ When reviewing code in this repository, apply the following rules:
 ## 🧼 Clean Code Principles
 - Functions should stay focused on a single responsibility and avoid unnecessary logic, loops, or logging.
 - The tool should warn when a method becomes too long, too complex, or mixes multiple concerns.
+
+## 🧪 Unit Test Coverage
+- New logic should be supported by appropriate unit tests, especially for services and controllers.
+- The tool should warn when a commit adds functionality without corresponding tests.

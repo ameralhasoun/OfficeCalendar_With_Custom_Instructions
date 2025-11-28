@@ -40,5 +40,11 @@ Copilot should apply these rules to **every pull request** and **every code revi
 
 ---
 
+## 🧪 Unit Test Coverage
+- New logic should be supported by appropriate unit tests, especially for services and controllers.
+- The tool should warn when a commit adds functionality without corresponding tests.
+
+---
+
 ## 🏁 End of Copilot Instructions  
 Copilot should follow these rules in every code review in this repository.
