@@ -10,17 +10,13 @@ reviews:
         mode: "warning"
         instructions: "A file name must match the primary class name inside it (e.g., MessagesService.cs → MessagesService). Request changes when the file name and class name do not correspond."
 
-      - name: "Avoid Negative or Confusing Names"
-        mode: "warning"
-        instructions: "Variable names must be positive and clear (e.g., use isDone instead of isNotDone). Request changes when naming is negative, double-negative, or confusing."
-
-      - name: "Consistent Formatting"
-        mode: "warning"
-        instructions: "Code must use a uniform indentation style (tabs/spaces) across all methods and files. Request changes when formatting is inconsistent or breaks the project’s convention."
-
       - name: "Naming Conventions"
         mode: "error"
         instructions: "Follow standard C# naming: variables use camelCase, and classes, methods, and public members use PascalCase. Request changes when naming does not follow these conventions."
+
+      - name: "Clean Code Principles"
+        mode: "warning"
+        instructions: "Functions should stay focused on a single responsibility and avoid unnecessary logic, loops, or logging. The tool should warn when a method becomes too long, too complex, or mixes multiple concerns."
 
 
   path_instructions:
