@@ -40,9 +40,9 @@ Copilot should apply these rules to **every pull request** and **every code revi
 
 ---
 
-## 📊 Commit Complexity
-- The tool should indicate the complexity level of a commit or estimate the review effort.
-- It should highlight when a commit contains many significant or multi-file changes.
+## 📝 Clear Commit Messages
+- Commit messages must clearly describe what changed; avoid vague texts like “Fix”, “Update”.
+- Request changes when a commit message is unclear or does not explain the modification.
 
 ---
 

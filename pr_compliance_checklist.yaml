@@ -37,3 +37,9 @@ pr_compliances:
     objective: "Ensure functions are simple and focused on a single responsibility."
     success_criteria: "Functions remain concise and avoid unnecessary logic, loops, or logging."
     failure_criteria: "Methods become too long, too complex, or mix multiple responsibilities."
+
+  - title: "Clear Commit Messages"
+    compliance_label: true
+    objective: "Ensure commits clearly describe what changed."
+    success_criteria: "Commit messages explain modifications and avoid vague texts like 'Fix' or 'Update'."
+    failure_criteria: "Commit messages are unclear or do not describe the modification."
