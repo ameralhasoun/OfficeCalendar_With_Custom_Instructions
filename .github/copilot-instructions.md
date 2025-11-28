@@ -40,9 +40,9 @@ Copilot should apply these rules to **every pull request** and **every code revi
 
 ---
 
-## 🧪 Unit Test Coverage
-- New logic should be supported by appropriate unit tests, especially for services and controllers.
-- The tool should warn when a commit adds functionality without corresponding tests.
+## 📊 Commit Complexity
+- The tool should indicate the complexity level of a commit or estimate the review effort.
+- It should highlight when a commit contains many significant or multi-file changes.
 
 ---
 

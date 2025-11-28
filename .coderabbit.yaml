@@ -18,9 +18,6 @@ reviews:
         mode: "warning"
         instructions: "Functions should stay focused on a single responsibility and avoid unnecessary logic, loops, or logging. The tool should warn when a method becomes too long, too complex, or mixes multiple concerns."
 
-      - name: "Unit Test Coverage"
-        mode: "warning"
-        instructions: "New logic should be supported by appropriate unit tests, especially for services and controllers. The tool should warn when a commit adds functionality without corresponding tests."
 
   path_instructions:
     - path: "**/*.cs"
@@ -33,4 +30,3 @@ reviews:
         - Code must use a consistent indentation style across all methods and files. Flag inconsistent formatting.
         - Follow standard C# naming conventions: variables use camelCase, while classes, methods, and public members use PascalCase. Avoid inconsistent capitalization.
         - Functions should stay focused on a single responsibility. Avoid large or overly complex methods and unnecessary logic, loops, or logging.
-        - New logic should be supported by appropriate unit tests, especially for services and controllers. Warn when functionality is added without corresponding tests.
